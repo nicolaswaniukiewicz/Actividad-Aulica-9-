@@ -1,0 +1,265 @@
+        /* Estilos generales */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+        
+        a:hover {
+            color: #666;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Encabezado */
+        header {
+            padding: 20px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .date {
+            font-size: 0.9rem;
+        }
+        
+        .search-btn {
+            background: #333;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            cursor: pointer;
+            font-family: inherit;
+        }
+        
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .logo h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        /* Contenido principal */
+        .main-content {
+            display: flex;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+        
+        .article-content {
+            flex: 2;
+            min-width: 300px;
+            margin-right: 40px;
+        }
+        
+        .featured-image {
+            width: 100%;
+            height: 400px;
+            background-color: #f5f5f5;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+        }
+        
+        .article-header {
+            margin-bottom: 20px;
+        }
+        
+        .article-header h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        
+        .article-meta {
+            display: flex;
+            justify-content: space-between;
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+        
+        .article-intro {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+        
+        .author-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        
+        .author-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #f5f5f5;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+        }
+        
+        .author-details {
+            font-size: 0.9rem;
+        }
+        
+        .author-details span {
+            color: #666;
+        }
+        
+        /* Sidebar */
+        .sidebar {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .sidebar-widget {
+            margin-bottom: 40px;
+        }
+        
+        .sidebar-widget h3 {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .search-form {
+            display: flex;
+        }
+        
+        .search-form input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            font-family: inherit;
+        }
+        
+        .search-form button {
+            background: #333;
+            color: white;
+            border: none;
+            padding: 0 15px;
+            cursor: pointer;
+        }
+        
+        .popular-articles li {
+            display: flex;
+            margin-bottom: 15px;
+        }
+        
+        .article-thumb {
+            width: 80px;
+            height: 60px;
+            background-color: #f5f5f5;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 0.8rem;
+        }
+        
+        .article-info {
+            flex: 1;
+        }
+        
+        .article-info h4 {
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+        
+        .article-info span {
+            font-size: 0.8rem;
+            color: #666;
+        }
+        
+        .trending-articles li {
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        /* Pie de página */
+        footer {
+            background-color: #f9f9f9;
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        .footer-logo {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+        
+        .footer-nav {
+            margin-bottom: 20px;
+        }
+        
+        .footer-nav a {
+            margin: 0 10px;
+            font-size: 0.9rem;
+        }
+        
+        .copyright {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .article-content {
+                margin-right: 0;
+                margin-bottom: 40px;
+            }
+            
+            .featured-image {
+                height: 250px;
+            }
+            
+            nav ul li {
+                margin: 5px 10px;
+            }
+        }
+  
